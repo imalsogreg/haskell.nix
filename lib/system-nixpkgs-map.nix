@@ -44,7 +44,7 @@ in
   Xxf86vm = [ xorg.libXxf86vm ];
   Xcursor = [ xorg.libXcursor ];
   Xinerama = [ xorg.libXinerama ];
-  mysqlclient = [ mysql ];
+  mysqlclient = [ libmysqlclient openssl ];
   Imlib2 = [ imlib2 ];
   asound = [ alsaLib ];
   ffi = null;
